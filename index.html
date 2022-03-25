@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/form" method="POST" id="form">
+            <label for="imie">Imię</label><br>
+            <input type="text" id="imie" name="imie"><br>
+            <label for="nazwisko">Nazwisko</label><br>
+            <input type="text" id="nazwisko" name="nazwisko"><br>
+            <label for="e-mail">E-mail</label><br>
+            <input type="email" id="e-mail" name="e-mail"><br>
+            <label for="numer">Numer telefonu</label><br>
+            <input type="tel" id="numer" name="numer"><br>
+            <label for="miasta">Wybierz miasto</label><br>
+            <select name="miasta" id="miasta">
+            <option value="Gdansk">Gdańsk</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Kraków">Kraków</option>
+            </select>
+            <p>Płeć</p>
+            <input type="radio" id="mezczyzna" value="mezczyzna" name="choice">
+            <label for="mezczyzna">Mężczyzna</label><br>
+            <input type="radio" id="kobieta"  value="kobieta" name="choice">
+            <label for="kobieta">Kobieta</label><br>
+            <input type="checkbox" name="agreement">Wyrażam zgodę na przetwarzanie danych osobowych<br>
+            <label for="wiadomosc">Wiadomość</label><br>
+            <textarea id="wiadomosc" name="wiadomosc">
+            Tu wpisz tekst
+            </textarea><br>
+            <input type="submit" value="Submit">
+
+          </form> 
+</body>
+</html>
